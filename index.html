@@ -1,216 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guia da Noiva Inteligente</title>
-  <style>
-    body {
-      font-family: 'Poppins', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fff;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 60px 20px;
-      background: linear-gradient(135deg, #fce4ec, #fff3e0);
-    }
-    header h1 {
-      font-size: 2.2rem;
-      color: #d81b60;
-      margin-bottom: 10px;
-    }
-    header h2 {
-      font-size: 1.2rem;
-      color: #444;
-    }
-    .price {
-      font-size: 1.5rem;
-      color: #e53935;
-      font-weight: bold;
-      margin: 20px 0;
-    }
-    .btn {
-      display: inline-block;
-      background: #d81b60;
-      color: white;
-      padding: 15px 25px;
-      margin: 10px 0;
-      border-radius: 8px;
-      font-size: 1rem;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #ad1457;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    section h2 {
-      text-align: center;
-      color: #d81b60;
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin: 10px 0;
-      padding-left: 25px;
-      position: relative;
-    }
-    ul li::before {
-      content: "✔";
-      position: absolute;
-      left: 0;
-      color: #d81b60;
-      font-weight: bold;
-    }
-    .bonus-card {
-      background: #fff8f9;
-      border: 1px solid #f8bbd0;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 15px 0;
-    }
-    .plans {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .plan {
-      border: 2px solid #f8bbd0;
-      border-radius: 12px;
-      padding: 20px;
-      text-align: center;
-      background: #fff8f9;
-    }
-    .footer {
-      text-align: center;
-      padding: 30px;
-      background: #fce4ec;
-      color: #444;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- HERO -->
-  <header>
-    <h1>💍 Seu Casamento com Menos de R$7.000</h1>
-    <h2>O Guia da Noiva Inteligente: O passo a passo secreto para organizar um casamento perfeito, econômico e inesquecível!</h2>
-    <p class="price">De R$97 por apenas R$10 – Último Dia!</p>
-    <a href="#plans" class="btn">QUERO ACESSAR AGORA</a>
-  </header>
-
-  <!-- PROBLEMAS -->
-  <section>
-    <h2>Você já se perguntou?</h2>
-    <ul>
-      <li>Como ter o casamento dos meus sonhos gastando pouco?</li>
-      <li>Como organizar tudo sem assessoria?</li>
-      <li>Como escolher fornecedores sem ser enganada?</li>
-      <li>Será que dá pra ter vestido, buffet e fotografia mesmo com pouco orçamento?</li>
-    </ul>
-  </section>
-
-  <!-- O SEGREDO -->
-  <section>
-    <h2>O Segredo do Casamento Econômico</h2>
-    <p>No <b>Guia da Noiva Inteligente</b>, você vai aprender a <b>economizar e organizar tudo do zero</b>, sem precisar de experiência prévia.  
-    Um método simples, direto e replicável, que já ajudou várias noivas a realizarem casamentos dos sonhos gastando menos de R$7.000.</p>
-  </section>
-
-  <!-- O QUE VAI APRENDER -->
-  <section>
-    <h2>O que você vai aprender</h2>
-    <ul>
-      <li>Lista de convidados inteligente</li>
-      <li>Segredos que os fornecedores escondem</li>
-      <li>Data estratégica para economizar até 40%</li>
-      <li>Decoração DIY linda e barata</li>
-      <li>Buffet econômico e delicioso</li>
-      <li>Como organizar mesmo em pouco tempo</li>
-    </ul>
-  </section>
-
-  <!-- BÔNUS -->
-  <section>
-    <h2>Bônus Exclusivos</h2>
-    <div class="bonus-card">
-      <b>Mini Guia da Lua de Mel Econômica</b> – Descubra destinos românticos gastando pouco.
-    </div>
-    <div class="bonus-card">
-      <b>Decoração DIY – Faça Você Mesma</b> – Truques simples e baratos para decorar o grande dia.
-    </div>
-    <div class="bonus-card">
-      <b>Como Escolher a Data Perfeita</b> – Economia e simbolismo para o grande dia.
-    </div>
-    <div class="bonus-card">
-      <b>Enxoval de Casamento Completo</b> – Lista pronta para montar sua casa nova.
-    </div>
-    <div class="bonus-card">
-      <b>Tudo sobre Casamento Civil</b> – Documentos, regimes de bens e como casar até de graça.
-    </div>
-    <div class="bonus-card">
-      <b>Textos e Frases para Votos e Convites</b> – Modelos prontos para emocionar.
-    </div>
-  </section>
-
-  <!-- PLANOS -->
-  <section id="plans">
-    <h2>Escolha a melhor opção</h2>
-    <div class="plans">
-      <div class="plan">
-        <h3>Plano Básico</h3>
-        <p>Ebook: Guia da Noiva Inteligente<br>6 meses de acesso</p>
-        <p><b>R$10 à vista</b></p>
-        <a href="#" class="btn">QUERO ESSA OPÇÃO</a>
-      </div>
-      <div class="plan">
-        <h3>Plano Completo – Mais Vendido</h3>
-        <p>Ebook completo + TODOS os bônus<br>Acesso vitalício + Atualizações<br>7 dias de garantia</p>
-        <p><b>R$37 ou 5x de R$8,05</b></p>
-        <a href="#" class="btn">SIM! QUERO REALIZAR MEU SONHO</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- RESUMO -->
-  <section>
-    <h2>Resumindo</h2>
-    <p>Se você sonha com um casamento lindo, organizado e gastando <b>menos de R$7.000</b>, o <b>Guia da Noiva Inteligente</b> é o seu atalho.  
-    Manual prático, direto e cheio de segredos que vão economizar tempo, dinheiro e estresse.</p>
-  </section>
-
-  <!-- AUTORIDADE -->
-  <section>
-    <h2>Quem está por trás do Guia?</h2>
-    <p>Prazer, eu sou [SEU NOME]!  
-    Assim como você, já sonhei com um casamento lindo sem gastar uma fortuna.  
-    Hoje, ensino centenas de noivas a realizarem o dia mais importante de suas vidas gastando muito menos.</p>
-  </section>
-
-  <!-- FECHAMENTO -->
-  <section style="text-align: center;">
-    <h2>A escolha é sua 💍</h2>
-    <p>Você pode continuar perdida entre orçamentos de 15, 20 ou até 30 mil reais…  
-    Ou investir o valor de uma pizza e garantir acesso ao guia que já ajudou várias noivas a realizarem seus casamentos por menos de R$7.000.</p>
-    <a href="#plans" class="btn">QUERO MEU GUIA AGORA</a>
-  </section>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    © 2025 Guia da Noiva Inteligente – Todos os direitos reservados.
-  </div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Seu Casamento com Menos de 7 mil reais</title>
+    <meta name="description" content="O Guia Secreto para ter um Casamento Perfeito & Econômico, mesmo com pouco tempo e muitos convidados." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '788699430557629');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+    <script type="module" crossorigin src="script.js"></script>
+    <link rel="stylesheet" crossorigin href="style.css">
+  </head>
+  <body>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=788699430557629&ev=PageView&noscript=1"
+    /></noscript>
+    <div id="root"></div>
+  </body>
 </html>
